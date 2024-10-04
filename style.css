@@ -1,0 +1,146 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cus-a {
+    color: #FFF8F3;
+}
+
+a {
+    color: #FFF8F3;
+}
+
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #405D72; /* Latar belakang gelap */
+    color: #FFF8F3; /* Teks kuning keemasan */
+}
+
+.wrapper {
+    max-width: 800px; /* Lebar maksimal */
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #758694; /* Latar belakang lebih terang dari body */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px #758694;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid #758694; /* Garis bawah emas */
+}
+
+.Profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #758694; /* Border emas */
+    box-shadow: 0 4px 20px #758694;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #758694; /* Efek bayangan */
+}
+
+.contact-info {
+    font-size: 1.2em;
+    color: #e0d69e; /* Teks lebih cerah untuk informasi kontak */
+}
+
+h2 {
+    color: #FFF8F3; /* Emas untuk judul */
+    font-size: 2.2em;
+    margin: 20px 0 10px 0;
+    border-bottom: 2px solid #758694; /* Garis bawah emas */
+}
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px; /* Jarak antar section */
+    padding: 20px;
+    background: #758694; /* Warna latar belakang section */
+    border-left: 5px solid #758694; /* Garis samping emas */
+    border-radius: 5px;
+}
+
+ul {
+    /* list-style-type: none; Menghilangkan bullet points */
+    padding-left: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #555; /* Garis bawah item daftar */
+}
+
+li:last-child {
+    border-bottom: none; /* Menghilangkan garis bawah untuk item terakhir */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #758694; /* Garis atas footer */
+    color: #e0d69e; /* Teks lebih cerah */
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    header, footer {
+        padding: 20px;
+    }
+    
+    .Profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+
+/* Existing styles... */
+.contact-button {
+    display: inline-block; /* Make it behave like a button */
+    background-color: #758694; /* Warna latar belakang tombol */
+    color: #333; /* Warna teks tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut bulat */
+    padding: 10px 20px; /* Jarak dalam tombol */
+    font-size: 1.2em; /* Ukuran font */
+    cursor: pointer; /* Menampilkan kursor tangan */
+    transition: all 0.3s ease; /* Transisi halus */
+    margin-top: 15px; /* Jarak atas */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.contact-button:hover {
+    background-color: #d9d25d; /* Warna saat hover */
+    transform: translateY(2px); /* Menurunkan posisi tombol */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+}
+
+.contact-button:active {
+    transform: translateY(4px); /* Posisi lebih rendah saat ditekan */
+    box-shadow: 0 0px 5px #758694; /* Bayangan saat ditekan */
+}
+
+
